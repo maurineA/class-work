@@ -62,4 +62,24 @@ const studentObj = {
 // console.log(courseCode)
 
 
+const numOperations = (num1, num2) => {
+    const sum =num1 + num2
+    const product = num1 *num2
+    return [sum, product]
+}
 
+// const results =numOperations(3,5)
+// console.log(results)
+
+// const results =numOperations(3,5)
+// const sum = results[0]
+// const product =results[1]
+// console.log(sum, product)
+
+const results =numOperations(3,5)
+const [sum,product] = results
+//console.log(sum, product)
+console.log(results)
+
+// const [sum,product] =numOperations(3,5)
+// console.log(sum, product)
